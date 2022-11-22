@@ -1,0 +1,48 @@
+.parent {
+    top: 0;
+    left: 0;
+position: relative;
+
+}
+
+
+.box1 {
+    position: relative;
+        top: 10px;
+        left: 10px;
+        border-radius: 0rem;
+        max-width: 1000px;  
+       
+}
+
+.box2 {
+    
+    position: absolute;
+        top: 200px;
+        right: 200px;
+        max-width: 500px;
+        border-radius: 1rem;
+}
+
+
+.box3 {
+    position: absolut;
+    padding: 5rem;
+    font-size: 25px;
+    font-family:'marvel';
+    border-radius: 1rem;
+    border: 3rem;
+    background-color:#F2DAC2
+    max-width: 900px;
+    height: auto;
+
+}
+
+h2 {
+font-family:'marvel';
+font-size: 50px;
+
+color: #804000;
+
+}
+
