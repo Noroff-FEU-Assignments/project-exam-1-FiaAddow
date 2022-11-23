@@ -3,6 +3,8 @@
     left: 0;
 position: relative;
 
+
+ 
 }
 
 
@@ -40,7 +42,7 @@ position: relative;
 
 h2 {
 font-family:'marvel';
-font-size: 50px;
+font-size: 100px;
 
 color: #804000;
 

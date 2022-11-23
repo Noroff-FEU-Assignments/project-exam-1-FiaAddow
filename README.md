@@ -68,3 +68,8 @@ Note that this is an exam, and therefore tutor support will be limited as per th
 
 kladd
         <img src="images/jonathan-borba-FvPPoLTYyzE-unsplash (1).jpg" alt="waterimg" class="bodyimg">
+
+
+       // kider:
+       https://noroff.bravais.com/document/6855/preview
+       https://www.w3docs.com/tools/code-editor/9154

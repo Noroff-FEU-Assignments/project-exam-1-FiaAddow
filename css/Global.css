@@ -61,3 +61,9 @@ p {
     font-family: 'prompt'; 
     color:  #804000;
 }
+
+h2 {
+    font-family: 'Clicker Script';
+    font-size: 100px;
+    color: #804000;font-weight: lighter;
+}
