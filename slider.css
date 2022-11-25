@@ -1,0 +1,52 @@
+/*slider*/
+*{
+    margin: 0;
+}
+
+ 
+Body {
+color: rgb(91, 88, 88);
+font-family: 'prompt', sans-serif;
+
+ }
+
+ #Slider {
+    height: 650px;
+    Border: 1px solid #804000;
+    display: flex;
+    justify-content: center;
+    background-color: #D9C5B2;
+    align-items: center;
+ }
+
+ .container{
+    margin: auto;
+    width: 1600px;
+ }
+
+.subcontainer{
+    width: 85%;
+    margin: auto;
+}
+
+.controller{
+display: flex;
+justify-content: space-between;
+}
+
+
+#controls  {
+color: #804000
+
+
+.previous,  .next {
+width: 30px;
+cursor: pointer;
+padding: 2px;
+}
+
+ @media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+ }
