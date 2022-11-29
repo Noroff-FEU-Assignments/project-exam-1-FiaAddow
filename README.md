@@ -73,3 +73,23 @@ kladd
        // kider:
        https://noroff.bravais.com/document/6855/preview
        https://www.w3docs.com/tools/code-editor/9154
+
+
+
+
+       1. a)
+fikse: Få banneren til å stick to the top, og spanne fra side til side.(hvt backgrunn)
+b)
+Bytt ut banner bilde i mindre kjermer.
+
+c)
+ navigationen skal stick under, samt være responsiv. 
+
+2.  legg innghold i en responsiv grid.
+
+3. home: fiks carusellen, den er all types of wrong
+
+4. About the blogger: 
+innholdet grid må fikses!
+
+5.

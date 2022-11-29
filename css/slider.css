@@ -14,8 +14,8 @@ background-color: #ffff;
 }
 
 .Grid-container {
-    max-width: px;
-    margin: 50px auto;
+    max-width: 600px;
+    margin: 0px auto;
     Padding: 10px;
     display: grid;
     grid-template-columns:repeat(3, 1fr);
@@ -35,8 +35,12 @@ background-color: #ffff;
     grid-row: 2/5;
    
 }
-
-
+.imgseize{
+    width: 300px;
+}
+.bod1.img {
+    
+}
 .bod2 {
     background-color: #ffff;
     grid-row: 2/5;

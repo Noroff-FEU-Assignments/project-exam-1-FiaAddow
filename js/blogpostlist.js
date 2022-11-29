@@ -16,10 +16,10 @@ getWPPosts.forEach(function(onePost){
    console.log(onePost);
    postContainer.innerHTML +=`
    <div class="posts">
-   <h1>${onePost.slug}</h1>
+   <h1>${onePost.slug}</h>
    <a href="blogpostlist.html?id= ${onePost.content}">
     <div>
-      <img class="images" width="500" height="500" style="background-image:url('${onePost.embeddable}[0].thumbnail}')">
+      <img class="images"style="background-image:url('${onePost.embeddable}[0].thumbnail}')">
     </div>
    </div>`
   });
