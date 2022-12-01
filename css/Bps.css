@@ -1,24 +1,54 @@
-.grid { 
+
+
+.posts {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 20px;
   align-items: stretch;
-  }
-.grid > article {
-  border: 1px solid rgb(184, 39, 39);
-  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
 }
-.grid > article images {
-  max-width: 100%;
-}
-.text {
-  padding: 0 20px 20px;
-}
-.text > button {
-  background: gray;
-  border: 0;
-  color: rgb(255, 255, 255);
-  padding: 10px;
-  width: 100%;
-  }
+ 
 
+.post {
+  width:400px;
+  height: fit-content;
+  overflow: hidden;
+  margin: 5rem;
+  padding: 4rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
+
+.post img {
+  /* width: 400px;
+  height: 300px; */
+  object-fit: cover;
+    max-width: 100%;
+
+}
+
+
+
+/*.imagecon {
+  border-radius: 1rem;
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+
+}
+  .grid > article {
+    border: 1px solid rg;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  }
+  .grid > article images {
+    max-width: 100%;
+  }
+  .text {
+    padding: 0 20px 20px;
+  }
+  .text > button {
+    background: gray;
+    border: 0;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 100%;
+  }

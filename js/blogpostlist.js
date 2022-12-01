@@ -1,11 +1,10 @@
 
-const postsUrl = "https://www.edle.tech/wp-json/wp/v2/posts?pr-page";
+const postsUrl = "https://edle.tech/wp-json/wp/v2/posts?_embed";
 
 const postContainer = document.querySelector(".posts");
 const imageContainer = document.querySelector(".images");
 
 async function getPosts(url) {
-   try {
       const response = await fetch(url);
       const getWPPosts = await response.json();
 
@@ -13,22 +12,23 @@ async function getPosts(url) {
 console.log(getWPPosts);
 
 getWPPosts.forEach(function(onePost){
-   console.log(onePost);
+   console.log(onePost._embedded['wp:featuredmedia'][0].source_url);
    postContainer.innerHTML +=`
-   <div class="posts">
-   <h1>${onePost.slug}</h>
-   <a href="blogpostlist.html?id= ${onePost.content}">
-    <div>
-      <img class="images"style="background-image:url('${onePost.embeddable}[0].thumbnail}')">
-    </div>
-   </div>`
+   <article class="post">
+   <a href="blogpostspes.html?id=${onePost.id}">
+      <img class="images" src="${onePost._embedded['wp:featuredmedia']['0'].source_url}">
+      <h1>${onePost.title.rendered}</h1>
+      <p>${onePost.excerpt.rendered}</p>
+         <button>Read More</button>
+      </a>
+   </article>`
   });
-  }
+  
 
-  catch (error) {
-   console.log(error);
-   postContainer.innerHTML = message("error", error);
-  }
+//   catch (error) {
+//    console.log(error);
+//    postContainer.innerHTML = message("error", error);
+//   }
 }
    getPosts(postsUrl); 
 

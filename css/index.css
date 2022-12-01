@@ -1,15 +1,38 @@
 
-.banner {
-    float: right; 
-    height: auto; 
-    margin-top: none;
+#banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+#banner img {
+    overflow: hidden;
+}
+
+#content {
+    width: auto;
+    display: flex;
+    justify-items: center;
+}
+
+.textbox {
+    width: 50%;
+    padding: 10rem;
+}
+
+.imagebox {
+    width: 50%;
+    padding: 1rem;
+    overflow: visible;
 }
 
 /*navigation*/
 
-.nav{
+.nav {
     position: sticky; 
-    width:100%; 
+    width:100%;
+    background-color: white;
 }
 .nav a {
   color: #676767;
