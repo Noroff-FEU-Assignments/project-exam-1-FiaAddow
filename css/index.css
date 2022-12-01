@@ -2,7 +2,7 @@
 #banner {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: ;
 }
 
 
@@ -27,48 +27,7 @@
     overflow: visible;
 }
 
-/*navigation*/
 
-.nav {
-    position: sticky; 
-    width:100%;
-    background-color: white;
-}
-.nav a {
-  color: #676767;
-  display: block;
-  float: left;
-  padding: 12px 14px;
-  font-size: 19px;
-  text-decoration: none;
-  font-family: 'prompt';
-  background: #ffff;
-}
-
-.nav a:hover {
-    background-color:#D9C5B2;
-    color: #9E6730;
-
-}
-
-
-
-.nav a.active {
-    background-color: #804000;
-    color:#ffff
-}
-
-.nav input[type=text] {
-    font-size: 19px;
-    margin-right: 15px;
-    margin-top: 8px;
-    font-size: 17px;
-    font-family: 'prompt';
-    padding: 5px;
-    border: none;
-    margin-left: 10px;
-    
-  }
 
  /*content*/ 
 body {
