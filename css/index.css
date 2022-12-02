@@ -1,160 +1,123 @@
-
-#banner {
+ /*grid*/
+#page {
+    display: grid;
     width: 100%;
-    display: flex;
-    justify-content: ;
-}
-
-
-#banner img {
-    overflow: hidden;
-}
-
-#content {
-    width: auto;
-    display: flex;
-    justify-items: center;
-}
-
-.textbox {
-    width: 50%;
-    padding: 10rem;
-}
-
-.imagebox {
-    width: 50%;
-    padding: 1rem;
-    overflow: visible;
-}
-
-
-
- /*content*/ 
-body {
-    background-color: #F2DAC2;
-}
-
-.bodyimg {
-    height: 846px;
-    width: 626px;
-    float: left;
-}
-
-header {
+    height:200px;
+    grid-template:
+      [header-left] "head head" 1fr [header-right]
+      [nav-left] "nav  nav" 1fr [nav-right]
+      [main-left] "main main" 1fr [main-right]
+      [footer-left] "foot  foot" 100px [footer-right]
+      / 120px 1fr;
+  }
+  
+  header {
+    grid-area: head;
     background-color: #ffff;
-    position: sticky
-}
-
-
-p {
-    font-family: 'prompt'; 
-    color: #804000;
-}
-
-/*slider*/
-/*slider*/
-*{
-    margin: 0;
-}
-
- 
-Body {
-color: rgb(91, 88, 88);
-font-family: 'prompt', sans-serif;
-
- }
-
- #Slider {
-    height: 650px;
-    display: flex;
-    justify-content: center;
-    background-color: #D9C5B2;
-    align-items: center;
- }
-
-.slide-img {
-    width: 100%;
-    height: 275px;
-    border: 1px solid #9a5a1b;
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: 0.5s;
- 
-}
-
-
-.slide-img:hover {
-   box-shadow: 0 0 0 200px; 
-   background-color: #F2DAC2(0.0,0,0.6) inset;
-
-   
-
-}
-
-.slide-img a {
-    transform: scale(1);
-    transition: 0.8s;
-    text-decoration: none;
-    font-size: 40px;
-    color: #804000;
-    opacity: 0;
+  }
+  
+  nav {
+    /*background-color: lightblue;*/
+    grid-area: nav;
+    grid-row: span;
     
+  }
+  .nav{
+    grid-column: span;
+  }
+  main {
+    /*background-color: yellow;*/
+    grid-area: main;
+    grid-column: span;
+  }
+  #content{
+    grid-row: ;
+  }
+  footer {
+    background-color:#EACCAD;
+    width: auto;
+    grid-area: foot;
+    position:static;
+    bottom: 0;
+    width: 100%;
+    height: 100px;   
+       
+     }
   
-}
-.slide-img :hover a{
-    text-decoration: none;
-    transform: scale(0);
-    transition: 0,8s;
-}
- .container{
-    margin: auto;
-    width: 1600px;
+
+ /*  (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  {
    
+
+   
+   
+   
+    header img{
+        display: none;
+    }
+    
+    .imagebox > img{
+        display: none;
+    }
+
   
- }
-
-.subcontainer{
-    width: 85%;
-    margin: auto;
-}
-
-.controller{
-display: flex;
-justify-content: space-between;
+p {
+    display: none;
+    /*font-family: 'prompt'; 
+    color:  #804000;
+    font-size: 40px;*/
+   
 }
 
 
-#controls  {
-color: #804000
+    body {
+        background: url('/images/logo.png');
+        /*you will add the carusel here*/
+    }
+        .nav {
+            position:
+            background-color: #ffff;
+          
+            
+        }
+        
+        .nav a {
+          color: #676767;
+          display: block;
+          float: left;
+          width: 810px;;
+          padding: 30px 50px;
+          font-size:30px;
+          text-decoration: none;
+          font-family: 'prompt';
+          background: #ffff;
+    }
+   .nav{
+    
 
-}
-
-.previous,  .next {
-width: 40px;
-cursor: pointer;
-padding: 2px;
-border-radius: 50%;
-outline: none;
-transition: 0,7s ease-in-out;
-border: 2px solid #9a5a1b;
-background-color: #F2DAC2;
-box-shadow: 0 0 5px #9a5a1b ;
-}
-
-.svg-inline--fa{
-    color:#9a5a1b
-}
-
-.previous:hover, .next:hover{
-    border: 3px solid #9a5a1b
-}
-
- @media(max-width:1600px){
-    .container{
-        width: 100%;
+   }
+    .header {
+        display:block;
+    }
+    
+    footer{
+        display: none;
     }
  }
+
+ @media only screen and (max-width: 900px) and (min-width: 600px)  {
+  .nav a{
+    background-color: #F2DAC2;
+  }
+  .nav  {
+    background-color: #F2DAC2;
+  }
+  }
+ 
+   
+    
+    /* Medium devices (tablets, less than 992px)
+    @media (max-width: 991.98px) { ... }  /*
+        
+  }
+

@@ -1,0 +1,89 @@
+body {
+    background: url('/images/logo.png');
+    margin: 0%;
+}
+
+.nav{
+    padding-top: 4rem;
+    padding-left: 8rem;
+    height: 100px;
+    
+}
+
+main {
+    position: absolute;
+    margin-left: 10rem;
+    left: 0;
+    right: 0;
+    margin: 10%;
+    padding: 4rem;
+    align-self: center;
+}
+.contactcard{
+    width: 40rem;
+    background-color: white;
+    box-shadow: 10px 10px 5px #9E6730;
+}
+
+form {
+    padding: 3rem;
+    position: relative;
+    width: 500px;
+    margin: 50px auto 100px auto;
+   
+    
+    
+    
+}
+
+input {
+height: 30px;
+width: 200px;
+border-color: #80400064;
+border-style:double;
+
+
+
+}
+
+#subject {
+    
+    width:30rem;
+    height: 20rem;
+}
+
+.sendbutton {
+background-color:#ffff ;
+font-family: 'Prompt';
+font-size: 20px;
+color:#9e6730;
+align-items: center;
+box-shadow: 5px 5px 2.5px #9e6730af;
+height: 60px;
+
+
+}
+
+@media only screen and (max-width: 600px) {
+   
+.nav {
+    position:
+    background-color: #ffff;
+  
+    
+}
+
+.nav a {
+  color: #676767;
+  display: block;
+  float: left;
+  width: 810px;;
+  padding: 30px 50px;
+  font-size:30px;
+  text-decoration: none;
+  font-family: 'prompt';
+  background: #ffff;
+}
+
+}
+    

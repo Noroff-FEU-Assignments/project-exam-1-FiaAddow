@@ -9,7 +9,7 @@ async function getPosts(url) {
       const getWPPosts = await response.json();
 
 
-console.log(getWPPosts);
+
 
 getWPPosts.forEach(function(onePost){
    console.log(onePost._embedded['wp:featuredmedia'][0].source_url);
@@ -25,10 +25,7 @@ getWPPosts.forEach(function(onePost){
   });
   
 
-//   catch (error) {
-//    console.log(error);
-//    postContainer.innerHTML = message("error", error);
-//   }
+
 }
    getPosts(postsUrl); 
 

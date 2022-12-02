@@ -1,29 +1,44 @@
-var form = {};
-
-document.addEventListener("DOMContentLoaded", function() {
-    form.Name = document.getElementById('Name');
-   
-    form.email = document.getElementById('email');
+// https://stackoverflow.com/a/46181
+const validateEmail = (email) => {
+    return String(email)
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      );
+  };
   
-    form.question = document.getElementById('question');
-})
-
-
-   function ifNotEmpty(value) {
-    if (value == null || typeof value == 'undefined' ) return false;
-    return (value.length > 0);
-   }
-//control if email is correct format
-   function isEmail(email) {
-    let regex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/;
-    return regex.test(String(email).toLowerCase());
-   }
-
-   //sending form
-
-   function sendForm() {
-    form.Name = getName();
-
-    if (isValid()) {
-        let usr =new
-    }
+  const validateForm = () => {
+    const form = document.querySelector("#form");
+    form.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const name = document.querySelector("#name").value;
+      const subject = document.querySelector("#subject").value;
+      const email = document.querySelector("#email").value;
+      const address = document.querySelector("#address").value;
+  
+      if (!name) {
+        alert("Please enter your name");
+        return;
+      }
+  
+      if (subject.length < 10) {
+        alert("Subject must be at least 10 characters");
+        return;
+      }
+  
+      if (!validateEmail(email)) {
+        alert("Please enter a valid email");
+        return;
+      }
+  
+      if (address.length < 25) {
+        alert("Address must be at least 25 characters");
+        return;
+      }
+  
+      const validationDiv = document.querySelector("#validation");
+      validationDiv.innerHTML = `<p>Valiadation completed</p>`;
+  
+      alert("Thank you for your message!");
+    });
+  };

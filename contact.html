@@ -10,37 +10,38 @@
     <link href="/css/index.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/d5005c0a32.js" crossorigin="anonymous"></script>
     <title>Contact form page</title>
-</head>
+<body>
+  </head>
   <div>
     <nav class="nav">
-        <a class="active" href="index.html">HOME</a>
+        <a href="index.html">HOME</a>
         <a href="About.html">ABOUT THE BLOGGER</a>
         <a href="blogpostlist.html">BLOGPOSTS</a>
-        <a href="contact.html">CONTACT</a>
+        <a class="active" href="contact.html">CONTACT</a>
         <input type="text" placeholder="Search.." name="search">
         <i class="fa-solid fa-magnifying-glass"></i>
     </nav>
-    <header id="banner">
-        <img src="images/banner.png" alt="banner">
-    </header>
-</div>
-<body>
-  
-    <main>
-       <section>
-         <h1>We would love to hear from you</h1>
-           <input type="text" placeholder="Name" id="YourName" />
-         <br><br>
-           <input type="text" placeholder=" Email @" id="YourName" />
-         <br><br>
-         <textarea id="request" rows="4"></textarea>
-         <br><br>
-         <button onclick="sendContact();">Submit</button>
-       </section>
-       
-       
-    </main>
-
+ 
+     </div>
+  <main>
+   <section class="contactcard">
+     <form id="form">
+       <div>
+         <h1>Keep in touch</h1>
+       </div>
+      <label for="name">Name:</label><br />
+     <input type="text" id="name" name="name" required /><br />
+     <label for="subject" minlength="10">Subject:</label><br />
+     <input type="text" id="subject" name="subject" /><br />
+     <label for="email">Email:</label><br />
+     <input type="email" id="email" /><br />
+     <label for="address" minlength="25">Address:</label><br />
+     <input type="text" id="address" name="address" /><br />
+  <br/>
+    <input type="submit" onclick="validateForm()" class="sendbutton"/>
+   </form>
+  </section>
+</main>
     
 </body>
 <script src="js/blogpost.js"></script>

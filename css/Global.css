@@ -2,6 +2,7 @@
 h1{
     
 }
+
 .banner {
     float: right; 
     height: auto; 
@@ -14,17 +15,18 @@ h1{
 /*navigation*/
 
 .nav {
-    position: sticky; 
-    width:100%;
-    background-color: white;
-    height: 75px;
+    position:relative;
+    background-color: #ffff;
+    width: 100%;
+    
 }
+
 .nav a {
   color: #676767;
   display: block;
   float: left;
-  padding: 12px 14px;
-  font-size: 19px;
+  padding: 20px 20px;
+  font-size: 25px;
   text-decoration: none;
   font-family: 'prompt';
   background: #ffff;
@@ -43,8 +45,12 @@ h1{
     color:#ffff
 }
 
+.nav a:hover {
+    background-color: #8040000c;
+  }
+   
 .nav input[type=text] {
-    font-size: 19px;
+    font-size: 25px;
     margin-right: 15px;
     margin-top: 8px;
     font-size: 17px;
@@ -56,8 +62,14 @@ h1{
   }
 
   
+.text{
+    background-color: #ffff;
+    width:max-content
+}
+
 body {
-    background-color: #F2DAC2;
+    background-color:#F2DAC2;
+    margin: 0%;
 }
 
 .bodyimg {
@@ -73,6 +85,7 @@ header {
 p {
     font-family: 'prompt'; 
     color:  #804000;
+    font-size: 20px;
 }
 
 h1{
@@ -84,4 +97,33 @@ h2 {
     font-family: 'Clicker Script';
     font-size: 100px;
     color: #804000;font-weight: lighter;
+}
+
+
+
+/*content
+body {
+    background-color: #F2DAC2;
+}
+
+.bodyimg {
+    height: 846px;
+    width: 626px;
+    float: left;
+}
+
+header {
+    background-color: #ffff;
+    position: sticky
+}
+
+
+p {
+    font-family: 'prompt'; 
+    color: #804000;
+}
+
+
+*{
+    margin: 0;
 }
