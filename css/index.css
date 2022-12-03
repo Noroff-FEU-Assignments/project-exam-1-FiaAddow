@@ -28,10 +28,10 @@
 
 
   main {
-    /*background-color: yellow;*/
     grid-area: main;
     grid-column: span;
   }
+
   .content3 {
     grid-area: main;
     height: auto;
@@ -68,7 +68,7 @@
     }
   
     .posts-container {
-      height: calc(100vh - 2rem);
+      height: calc(vh - 2rem);
       width: 100%;
       display: flex;
       overflow: scroll;
@@ -168,16 +168,42 @@
     }
     
   
+
+
+
+
+
+
+
+
+
     /*big screans*/
     @media only screen and (min-width: 906px)  { 
-      .mobbanner{
+      .mobbanner {
         display: none;
       }
     }
     
+
+
+
+
+
+
+
+
  /*  (phones, 600px and down) */
- @media only screen and (max-width: 906px)  {
-   
+ @media only screen and (max-width: 600px)  {
+  
+  banner{
+    display: block;
+  }
+  
+  .bigbanner {
+    display: none;
+ 
+  }
+  
 
   #page { 
   display: grid;
@@ -188,12 +214,9 @@
    
   }
 
-    header img{
-        display: none;
-    }
     
-    .imagebox > img{
-        display: none;
+    .imagebox > img {
+        display:contents;
     }
 
   
@@ -201,15 +224,17 @@ p {
     display: none;
     font-family: 'prompt'; 
     color:  #804000;
-    font-size: 40px;
+    font-size: 20px;
    
 }
 
 
+   
     body {
-        background: url('/images/logo.png');
-        /*you will add the carusel here*/
-    }
+        background-color:#804000;
+      }
+
+    
       
         
         .nav a {
@@ -217,16 +242,14 @@ p {
           display: block;
           float: left;
           width: 810px;
-          padding: 60px 50px;
-          font-size:40px;
+          padding: 40px 50px;
+          font: size 20px;
           text-decoration: none;
           font-family: 'prompt';
           background: #ffff;
     }
  
-    .header {
-        display:block;
-    }
+  
     
     .content3 {
       grid-area: main;
@@ -241,25 +264,30 @@ p {
 
  @media only screen and (max-width: 900px) and (min-width: 600px)  {
  
+  body {
+    background-color: #804000;
+  }
+
   .nav  {
     background-color: #F2DAC2;
   }
+
   .nav a {
     color: #676767;
     display: block;
-    float: left;
     min-width: 600px;
     padding: 30px 50px;
-    font-size:30px;
+    font: size 20px;
     text-decoration: none;
     font-family: 'prompt';
     background: #ffff;
   }
 
+
     .content3 {
     grid-area: main;
-    grid-column: span;
-    background-color:#9E6730;
+    grid-column:auto;
+    background-color:#804000;
     height: 400px;
     width: 900px;
 
@@ -268,4 +296,4 @@ p {
  
    
     
-    
+}
