@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
   }
@@ -13,7 +15,7 @@
       margin: 1rem;
   }
 
-  .carusell-container {
+  .posts-container {
     height: calc(100vh - 2rem);
     width: 100%;
     display: flex;
@@ -40,15 +42,7 @@
 
   }
 
-  * {
-    box-sizing: border-box;
-  }
   
-  body {
-    max-width: 1440px;
-    margin: auto;
-  }
-
   .post {
     width: 100%;
     height: 100%;
@@ -64,60 +58,60 @@
   }
   
   .post:nth-child(3) {
-    background-color: #dab28a
+    background-color: #6a478f;
     margin: 0;
   }
   
   .post:nth-child(4) {
-    background-color: #ca9a6a;
+    background-color: #da6f2b;
     margin: 0;
   }
   
   .post-wrapper {
       overflow: hidden;
-      margin: 1rem;
       position: relative;
+      margin: 1rem;
   }
   
-  .post-container {
+  .posts-container {
+      overflow: scroll;
       width: 100%;
       display: flex;
-      overflow: scroll;
       height: calc(100vh - 2rem);
-    }
+  }
   
   .post-arrow {
-      padding: 0;
-      margin: auto;
       display: flex;
-      width: 2rem;
+      margin: auto;
       height: 4rem;
-      font-size: 3rem;
+      width: 2rem;
+      transition: opacity 100ms;
       top: 0;
       background-color: white;
-      transition: opacity 100ms;
+      position: absolute;
       bottom: 0;
       cursor: pointer;
       border: none;
       opacity: 0.5;
-      position: absolute;
+      font-size: 3rem;
+      padding: 0;
   }
   
  
   #arrow-prev {
-      left: 0;
-      padding-left: 0.25rem;
       border-radius: 0 2rem 2rem 0;
+      padding-left: 0.25rem;
+      left: 0;
   }
   
   #arrow-next {
-      right: 0;
       border-radius: 2rem 0 0 2rem;
       padding-left: 0.75rem;
+      right: 0;
   }
   
-  .arrow:focus, 
-  .arrow:hover {
+  .arrow:hover,
+  .arrow:focus {
     opacity: 1;
   }
   
