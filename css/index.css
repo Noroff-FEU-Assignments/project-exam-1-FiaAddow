@@ -101,6 +101,13 @@
       flex: 1 0 100%;
     }
     
+.post img {
+  width: 100%;
+ height:100%; 
+ object-fit: cover;
+   max-width: 100%;
+
+}
     .post:nth-child(1) {
       background-color: #9E6730;
     }

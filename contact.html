@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/Contact.css">
-    <link href="/css/Global.css" rel="stylesheet">
-    <link href="/css/contact.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d5005c0a32.js" crossorigin="anonymous"></script>
-    <title>Contact form page</title>
-<!-- Hotjar Tracking Code for project exam -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3274251,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/Contact.css">
+  <link href="/css/Global.css" rel="stylesheet">
+  <link href="/css/contact.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d5005c0a32.js" crossorigin="anonymous"></script>
+  <title>Contact form page</title>
+  <!-- Hotjar Tracking Code for Farhia project exam -->
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 3274592, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-  </head>
-  <body>
-    <div>
-      <nav class="nav">
-          <a href="index.html">HOME</a>
-          <a class="active" ="About.html">ABOUT THE BLOGGER</a>
-          <a href="blogpostlist.html">BLOGPOSTS</a>
-          <a href="contact.html">CONTACT</a>
-      </nav>
-      <header id="banner">
-          <img src="images/banner.png" alt="banner">
-      </header>
-    </div>
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</head>
+
+<body>
+  <div>
+    <nav class="nav">
+      <a href="index.html">HOME</a>
+      <a class="active"="About.html">ABOUT THE BLOGGER</a>
+      <a href="blogpostlist.html">BLOGPOSTS</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+    <header id="banner">
+      <img src="images/banner.png" alt="banner">
+    </header>
+  </div>
   <main>
-   <section class="contactcard">
-     <form id="form">
-       <div>
-         <h1>Keep in touch</h1>
-       </div>
-      <label for="name">Name:</label><br />
-     <input type="text" id="name" name="name" required /><br />
-     <label for="subject" minlength="10">Subject:</label><br />
-     <input type="text" id="subject" name="subject" /><br />
-     <label for="email">Email:</label><br />
-     <input type="email" id="email" /><br />
-     <label for="address" minlength="25">Address:</label><br />
-     <input type="text" id="address" name="address" /><br />
-  <br/>
-    <input type="submit" onclick="validateForm()" class="sendbutton"/>
-   </form>
-  </section>
-</main>
-    
+    <section class="contactcard">
+      <form id="form">
+        <div>
+          <h1>Keep in touch</h1>
+        </div>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br />
+        <label for="subject" minlength="10">Subject:</label><br />
+        <input type="text" id="subject" name="subject" /><br />
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" /><br />
+        <label for="address" minlength="25">Address:</label><br />
+        <input type="text" id="address" name="address" /><br />
+        <br />
+        <input type="submit" onclick="validateForm()" class="sendbutton" />
+      </form>
+    </section>
+  </main>
+
 </body>
 <script src="js/blogpost.js"></script>
+
 </html>
