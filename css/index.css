@@ -195,8 +195,12 @@
  /*  (phones, 600px and down) */
  @media only screen and (max-width: 600px)  {
   
-  banner{
-    display: block;
+  .banner img {
+    display: contents
+    
+    
+    
+    ;
   }
   
   .bigbanner {
@@ -213,7 +217,6 @@
 
    
   }
-
     
     .imagebox > img {
         display:contents;
