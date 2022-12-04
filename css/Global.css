@@ -53,6 +53,7 @@
     
   }
 
+  /*body*/
   
 .text{
     background-color: #ffff;
@@ -60,7 +61,7 @@
 }
 
 body {
-    background-color:#F2DAC2;
+    background-color:#f2dac2;
     margin: 0%;
 }
 
@@ -91,8 +92,39 @@ h2 {
     color: #804000;font-weight: lighter;
 }
 
-@media only screen and (max-width: 600px)  {}
 
+
+ /*  (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  {
+    
+    Header img{
+      display: none;
+    }
+
+    /*nav disposisjon*/
+    .nav  {
+        background-color: #F2DAC2;
+      }
+      
+        
+        .nav a {
+          color: #676767;
+          display: block;
+          float: left;
+          width: 390px;
+          padding: 30px 50px;
+          text-decoration: none
+          font-family: 'prompt';
+          background: #ffff;
+    }
+
+    .parent { 
+        display: grid;
+        width: 100%;
+        height:200px;
+        grid-column:initial; 
+      
+    
 /*content
 body {
     background-color: #F2DAC2;

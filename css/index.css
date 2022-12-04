@@ -72,6 +72,7 @@
       width: 100%;
       display: flex;
       overflow: scroll;
+      padding: inherit;
     }
     
     .arrow {
@@ -185,7 +186,7 @@
 
 
     /*big screans*/
-    @media only screen and (min-width: 906px)  { 
+    @media only screen and (min-width: 900px)  { 
       .mobbanner {
         display: none;
       }
@@ -203,12 +204,10 @@
  @media only screen and (max-width: 600px)  {
   
   .banner img {
-    display: contents
-    
-    
-    
-    ;
+    display: none;
   }
+  
+ 
   
   .bigbanner {
     display: none;
@@ -245,19 +244,6 @@ p {
       }
 
     
-      
-        
-        .nav a {
-          color: #676767;
-          display: block;
-          float: left;
-          width: 810px;
-          padding: 40px 50px;
-          font: size 20px;
-          text-decoration: none;
-          font-family: 'prompt';
-          background: #ffff;
-    }
  
   
     
