@@ -98,6 +98,10 @@ footer {
  /*  (phones, 600px and down) */
  @media only screen and (max-width: 600px)  {
     
+  .content2 > p {
+    color: #F2DAC2;
+
+  }
 
     Header img{
       display: none;

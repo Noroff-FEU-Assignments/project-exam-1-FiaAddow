@@ -241,8 +241,8 @@ display: none;
   width: 900px;
   
 }
-}
 
+}
 
 /*  (phones, 600px and down) */
 @media only screen and (max-width: 600px)  {
@@ -263,8 +263,7 @@ display: none;
 }
 
 .mobbanner{
-  display: none;
-  
+  width: 100%;
 }
 
 #page { 
@@ -284,19 +283,19 @@ grid-row:span;
 p {
   display: none;
   font-family: 'prompt'; 
-  color:  #804000;
+  color:  #ffff;
   font-size: 20px;
  
 }
 
   
   .content3 {
- display: none;
+ display: 100%;
 
 
   }
 
-
+ 
 
 }
 
