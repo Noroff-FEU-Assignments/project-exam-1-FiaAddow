@@ -196,10 +196,13 @@ object-fit: cover;
     .mobbanner {
       display: none;
     }
-  }
+  
   
 
-
+.content-3-button{
+display: none;
+}
+  }
 
 
 
@@ -223,8 +226,10 @@ object-fit: cover;
   background-color: #ffff;
 }
 
+.content-3-button{
+  display: none;
 
-
+}
 
 .content3 {
   grid-area: main;
@@ -289,9 +294,7 @@ p {
 
   }
 
-  footer {
-      display: none;
-  }
+
 
 }
 
