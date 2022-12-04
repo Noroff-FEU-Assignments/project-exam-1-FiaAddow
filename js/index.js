@@ -28,7 +28,10 @@ getWPPosts.forEach(function(onePost){
 console.log(onePost._embedded['wp:featuredmedia'][0].source_url);
 postsContainer.innerHTML +=`
 <li class="post">
-    <img src="${onePost._embedded['wp:featuredmedia'][0].source_url}">
+
+   <a href="/blogpostspes.html?id=${onePost.id}">
+   <img src="${onePost._embedded['wp:featuredmedia'][0].source_url}">
+   </a>
     </li>`
 });
 

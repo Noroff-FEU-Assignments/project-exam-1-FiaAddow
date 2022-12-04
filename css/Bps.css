@@ -39,7 +39,8 @@ padding: 0.5rem;
   margin: 2rem;
   padding: 2rem;
   background-color: #F2DAC2;
-  border-radius: 1rem;      
+  border-radius: 1rem;   
+  
 }
 
 .post > a:hover {

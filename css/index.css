@@ -16,14 +16,7 @@ header {
   background-color: #ffff;
 }
 
-nav {
-  grid-area: nav;
-  grid-row: span;
-  
-}
-.nav{
-  grid-column: span;
-}
+
 
 
 main {
@@ -36,18 +29,6 @@ main {
   height: auto;
 
 }
-
-
-footer {
-  background-color:#EACCAD;
-  width: auto;
-  grid-area: foot;
-  position:static;
-  bottom: 0;
-  width: 100%;
-  height: 100px;   
-     
-   }
 
 
 
@@ -224,9 +205,6 @@ display: none;
   display: none;
 }
 
-.nav  {
-  background-color: #ffff;
-}
 
 .content-3-button{
   display: none;
