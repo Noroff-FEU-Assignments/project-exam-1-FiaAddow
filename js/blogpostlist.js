@@ -7,12 +7,12 @@ const imageContainer = document.querySelector(".images");
 async function getPosts(url) {
       const response = await fetch(url);
       const getWPPosts = await response.json();
+ 
 
 
 
 
 getWPPosts.forEach(function(onePost){
-   console.log(onePost._embedded['wp:featuredmedia'][0].source_url);
    postContainer.innerHTML +=`
    <article class="post">
    <a href="blogpostspes.html?id=${onePost.id}">

@@ -1,10 +1,11 @@
 
 
 .posts {
-  display: grid;
+
+  /*display: grid;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
   grid-gap: 20px;
-  align-items: stretch;
+  align-items: stretch;*/
 }
  
 
@@ -13,7 +14,7 @@
   height: fit-content;
   overflow: hidden;
   margin: 1px;
-  padding: 1rem;
+  padding: 0.25rem;
  
 }
 
