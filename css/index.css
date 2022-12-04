@@ -176,13 +176,20 @@ object-fit: cover;
   
 
 
+  .content-3-button {
+    font-family: 'prompt';
+    font-size: 40px;
+    margin: 1em;
+    color: #804000;
+    background-color: #eaccadcb;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    
+  } 
 
-
-
-
-
-
-
+ 
+ 
 
   /*big screans*/
   @media only screen and (min-width: 900px)  { 
@@ -248,6 +255,10 @@ object-fit: cover;
 
 }
 
+.mobbanner{
+  display: none;
+  
+}
 
 #page { 
 display: grid;
@@ -273,7 +284,7 @@ p {
 
   
   .content3 {
- display: 
+ display: none;
 
 
   }

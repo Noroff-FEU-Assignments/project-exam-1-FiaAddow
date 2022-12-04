@@ -1,5 +1,5 @@
 const postUrl = "https://edle.tech/wp-json/wp/v2/posts/";
-const postContainer = document.querySelector(".onepost");
+const postContainer = document.querySelector(".one-post");
 
 
 const queryString = document.location.search;
@@ -15,9 +15,8 @@ console.log(newUrl)
     const onePost = await response.json();
 console.log(onePost);
        postContainer.innerHTML += `
-        <div class="onepost">
-          ${onePost.content.rendered}
-        </div>
+        ${onePost.content.rendered}
+       
         `
         
         

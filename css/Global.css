@@ -15,9 +15,9 @@ header {
 /*navigation*/
 
 .nav {
-    position:relative;
+    /* position:relative; */
     background-color: #ffff;
-    width: auto;
+    /* width: auto; */
     
     
 }
@@ -114,15 +114,15 @@ h2 {
   /*nav disposisjon*/
   .nav  {
     background-color: #804000;
+    width: auto;
   }
   
   .nav a {
     color: #676767;
     display: block;
     float: left;
-    width: 810px;;
-    padding: 30px 50px;
-    font-size:30px;
+    width:100%;
+    font-size:20px;
     text-decoration: none;
     font-family: 'prompt';
     background: #ffff;
