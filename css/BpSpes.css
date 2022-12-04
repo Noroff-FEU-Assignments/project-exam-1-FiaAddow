@@ -1,11 +1,13 @@
 .one-post{
-width: auto;
+width: 75%;
+margin-left: auto;
+margin-right: auto;
 }
 
  img {
     width: auto;
    height: 100%; 
-   object-fit: cover;
+   object-fit: contain;
      max-width: 100%;
  
  }
@@ -40,5 +42,7 @@ h3 {
   color: #ffff;
   font-size: 40px;
 }
-
+.one-post{
+  width: 100%;
+}
  }

@@ -47,5 +47,12 @@ padding: 0.5rem;
   background-color: #f6e5d4;
 }
 
+ /*  (phones, 600px and down) */
+ @media only screen and (max-width: 600px)  {
 
-
+.post > a {
+  margin: 0rem;
+  padding: 2rem;
+  
+}
+ }

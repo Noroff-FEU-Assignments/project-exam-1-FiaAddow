@@ -26,10 +26,11 @@ form {
     font-family: 'prompt';  
      
 }
-.label subject {
+.subject {
     font-family: 'padding';
     color: #9E6730;
 }
+
 input {
 margin-bottom: 2rem;
 height: 30px;
@@ -71,6 +72,20 @@ label {
    
     main {
         padding: 4rem;
+        align-self: center;
+    }
+
+    form {
+        padding: 3rem;
+        position: relative;
+        margin: 0;
+        font-family: 'prompt';  
+         
+    }
+    main {
+       
+        margin: 0;
+        padding: 1rem;
         align-self: center;
     }
 }
