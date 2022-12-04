@@ -9,3 +9,36 @@ width: auto;
      max-width: 100%;
  
  }
+
+ h3 {
+  font-family: 'prompt'; 
+  color: #804000;
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+li {
+  font-family: 'prompt'; 
+    color: #804000;
+    
+  font-size: 20px;
+}
+
+ @media only screen and (max-width: 600px)  {
+h2 {
+  font-family: 'prompt'; 
+  color: #ffff;
+  font-size: 20px;
+}
+li {
+  font-family: 'prompt'; 
+  color: #ffff;
+  font-size: 20px;
+}
+h3 {
+  font-family: 'prompt'; 
+  color: #ffff;
+  font-size: 40px;
+}
+
+ }
