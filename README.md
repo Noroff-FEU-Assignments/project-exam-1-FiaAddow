@@ -35,7 +35,7 @@ git clone https://github.com/FiaAddow/Project-exam-1.git
 To install this project, you would need to clone the repository and ensure that you have a web browser installed on your computer.
 
 
-```
+
 
 
 ## Contributing
@@ -65,21 +65,10 @@ You can contact Farhia through the following channels:
 
 
 
-2. Install the dependencies:
 
-```
-npm install
-```
 
-### Running
 
-Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
 
-To run the app, run the following commands:
-
-```bash
-npm run start
-```
 
 ## Contributing
 
