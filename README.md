@@ -1,37 +1,69 @@
-# Portofolio
+# Exam 1
 
 ![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
 
-A simple overview of the use/purpose of the project.
+A simple overview of the use/purpose of the project:
+This project is a website that serves as a travel blog for the blogger. It includes a homepage with an image banner, a navigation menu, and various sections with information and images. It also includes separate pages for an "About" section, a list of blog posts, and a contact form. This is a school project in frontend development.
+
+
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project is a website that serves as a travel blog for the blogger, featuring information about the blogger's travels and experiences. It includes a homepage with an image banner and a navigation menu, an "About" page with a description of the blogger, a page with a list of blogposts, and a contact page. The homepage also includes a banner advertisement and a section with a carousel of images. The website is built with HTML and CSS.
 
-You can add some bullet points if you'd like to:
 
-- List item 1
-- List item 2
-- List item 3
 
 ## Built With
 
-You can list a the tech stack that you've used over here
+The following technologies were used to build this website:
 
-- [React.js](https://reactjs.org/)
-- [Bootstrap](https://getbootstrap.com)
+HTML
+CSS
+
 
 ## Getting Started
+To get started with this project, follow these instructions:
+
+1. Clone the repository:
+git clone https://github.com/FiaAddow/Project-exam-1.git
+
+2. Open the index.html file in a web browser to view the website.
+
 
 ### Installing
 
-This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+To install this project, you would need to clone the repository and ensure that you have a web browser installed on your computer.
 
-1. Clone the repo:
 
-```bash
-git clone git@github.com:NoroffFEU/portfolio-1-example.git
 ```
+
+
+## Contributing
+I am the sole creator of this file.
+
+To contribute to this project, please follow these steps:
+
+Fork the repository
+Create a new branch for your changes
+Commit your changes to the new branch
+Open a pull request to the original repository, detailing the changes you have made
+
+
+## Contact
+
+You can contact Farhia through the following channels:
+
+[My Twitter page](https://www.linkedin.com/in/farhia-d-addow-b85690175/)
+
+[My LinkedIn page](https://twitter.com/FiaAddow)
+
+
+
+
+
+## Acknowledgments
+
+
 
 2. Install the dependencies:
 
